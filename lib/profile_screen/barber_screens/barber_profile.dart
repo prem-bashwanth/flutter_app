@@ -196,8 +196,7 @@ class _BarberProfileScreenState extends State<BarberProfileScreen> {
   },
   child: Text('My Services'),
   style: ElevatedButton.styleFrom(
-    primary: Colors.white, // This sets the background color to white.
-    onPrimary: Colors.black, // This sets the text color to black.
+    foregroundColor: Colors.black, backgroundColor: Colors.white, // This sets the text color to black.
   ),
 ),
 
@@ -213,8 +212,7 @@ class _BarberProfileScreenState extends State<BarberProfileScreen> {
                       },
                       child: Text('Appointments'),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.white, // This sets the background color to white.
-                        onPrimary: Colors.black, // This sets the text color to black.
+                        foregroundColor: Colors.black, backgroundColor: Colors.white, // This sets the text color to black.
                       ),
                     ),
                     SizedBox(height: 20), 

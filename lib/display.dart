@@ -511,7 +511,6 @@ Widget build(BuildContext context) {
 // //   }
 
 // //   Future<List<Shop>> _fetchShopsFromAPI(Position userPosition) async {
-// //      final apiKey = 'AIzaSyCG7X1mJLHGGKxsKNK5GEGgucog2skBsn4';
 // //   final radius = 5000; // 5000 meters (adjust as needed)
 
 // //   final url = Uri.parse(

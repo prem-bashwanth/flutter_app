@@ -13,7 +13,8 @@ class HaircareShop {
 }
 
 Future<List<HaircareShop>> getNearbyHaircareShops(double lat, double lon) async {
-  final apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ'; // Replace with your API key
+  //api key for the project
+   // Replace with your API key
   final radius = 2000; // 5000 meters (adjust as needed)
   
   final url = Uri.parse(
@@ -77,7 +78,6 @@ double _toRadians(double degree) {
 // import 'package:http/http.dart' as http;
 
 // Future<List<dynamic>> getNearbyHaircareShops(double lat, double lon) async {
-//   final apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ'; // Replace with your API key
 //   final radius = 500; // 5000 meters (adjust as needed)
 
 //   final url = Uri.parse(
@@ -112,7 +112,6 @@ double _toRadians(double degree) {
 // // import 'package:http/http.dart' as http;
 
 // // Future<List<dynamic>> getNearbyHaircareShops(double lat, double lon) async {
-// //   final apiKey = 'AIzaSyCG7X1mJLHGGKxsKNK5GEGgucog2skBsn4';
 // //   final radius = 500000; // 5000 meters (adjust as needed)
 
 // //   final url = Uri.parse(

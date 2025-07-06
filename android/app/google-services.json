@@ -26,11 +26,7 @@
           "client_type": 3
         }
       ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCQo9H0m5nbUA64BCD-yHn7FQXoM3iUmKE"
-        }
-      ],
+      // API key for the project
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
@@ -70,11 +66,7 @@
           "client_type": 3
         }
       ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCQo9H0m5nbUA64BCD-yHn7FQXoM3iUmKE"
-        }
-      ],
+      //api key for the project
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [

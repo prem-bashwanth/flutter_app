@@ -156,7 +156,7 @@ class NearbyShopsScreen extends StatelessWidget {
   }
 
  Future<List<double>> _fetchCoordinates(String vicinity) async {
-    String apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ';
+  //api key for the project
     String baseUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
     String url = '$baseUrl?address=$vicinity&key=$apiKey';
 

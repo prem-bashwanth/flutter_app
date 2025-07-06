@@ -47,7 +47,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDgOlgH6oxCw5Ie3OhRHwIXTJQykKg7DD4',
+    //api key for the project
     appId: '1:335958231722:web:af4e43bf467b9b328e9ed3',
     messagingSenderId: '335958231722',
     projectId: 'salon-app-ff4e1',
@@ -56,7 +56,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCQo9H0m5nbUA64BCD-yHn7FQXoM3iUmKE',
+    //api key for the project
     appId: '1:335958231722:android:f5e796b39776e32a8e9ed3',
     messagingSenderId: '335958231722',
     projectId: 'salon-app-ff4e1',
@@ -64,7 +64,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAIg9693V9mZQjo8I1wuu3YdT68XWcr0_Y',
+    //api key for the project
     appId: '1:335958231722:ios:173a745224d997448e9ed3',
     messagingSenderId: '335958231722',
     projectId: 'salon-app-ff4e1',

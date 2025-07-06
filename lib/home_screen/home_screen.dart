@@ -81,7 +81,6 @@
 //     });
 //   }
 // Future<List<dynamic>> _fetchCoordinates(String vicinity) async {
-//   String apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ';
 //   String geocodeUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 //   String nearbySearchUrl = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
 
@@ -457,7 +456,6 @@
 
 
 // // Future<void> _fetchCoordinates(String vicinity) async {
-// //     String apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ';
 // //     String baseUrl = 'https://maps.googleapis.com/maps/api/geocode/json';
 // //     String url = '$baseUrl?address=$vicinity&key=$apiKey';
 

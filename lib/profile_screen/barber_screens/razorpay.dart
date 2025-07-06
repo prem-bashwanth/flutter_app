@@ -317,8 +317,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                 ElevatedButton(
                   onPressed: _triggerPayment, // Trigger payment function
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.deepPurple, // Button color
-                    onPrimary: Colors.white, // Text color
+                    foregroundColor: Colors.white, backgroundColor: Colors.deepPurple, // Text color
                     padding: EdgeInsets.symmetric(vertical: 16),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30.0),

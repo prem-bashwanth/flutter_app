@@ -15,7 +15,7 @@ class HaircareShop {
 }
 
 Future<List<HaircareShop>> getNearbyHaircareShopswithcategory(double lat, double lon,int index) async {
-  final apiKey = 'AIzaSyBy9kfOVTl3SxLRB_ZRK7R6ww80umGPcVQ'; // Replace with your API key
+  //api key for the project
   final radius = 1500; // 5000 meters (adjust as needed)
   List<String> categoriesNames = [
     'Haircut and Styling',
